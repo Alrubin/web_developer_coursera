@@ -5,12 +5,8 @@
     font-family: "Times New Roman", Times, serif;
   }
   
-  body{
-      margin: 0;
-      padding: 0;
-  }
-  
-  
+
+ 
   h1 {
     margin-bottom: 15px;
     text-align: center;
@@ -21,7 +17,6 @@
   
   .box{
     width: 100%;
-    overflow: none;
   }
   
   
@@ -80,12 +75,20 @@
     }
     .col-md-12 {
       float: left;
-      margin-left: -10px;
       width: 100%;
     }
     .name3{
       width: 100px;
     }
+
+    .col-md-12 .box .content-body{
+      margin: 1.25%;
+    }
+    .col-md-12 .box .content-title{
+      margin-right: 1.25%;
+    }
+
+
   }
   
   @media (min-width: 0px) and (max-width: 767px) {
